@@ -3,6 +3,7 @@ import { Content, Footer } from "antd/es/layout/layout";
 import Sider from "antd/es/layout/Sider";
 import Header from "./components/Header";
 import MainTab from "./components/MainTab";
+import Home from "./home";
 
 function RootLayout() {
   return (
@@ -11,7 +12,7 @@ function RootLayout() {
       <MainTab />
       <Layout>
         <Sider>Sider</Sider>
-        <Content>Content</Content>
+        <Home></Home>
         <Sider>Sider</Sider>
       </Layout>
       <Footer>Footer</Footer>
