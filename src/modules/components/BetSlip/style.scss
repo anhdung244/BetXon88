@@ -1,0 +1,15 @@
+.tabs-section {
+    .ant-tabs {
+        .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+            height: 1px;
+            background: #09ff8d;
+        }
+        .ant-tabs-tab.ant-tabs-tab-active {
+            .ant-tabs-tab-btn {
+                color: #09ff8d;
+            }
+        }
+    }
+}
+// .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+// }
