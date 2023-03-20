@@ -34,7 +34,7 @@ const responsive = [
     },
   },
   {
-    breakpoint: 2100,
+    breakpoint: 2300,
     settings: {
       autoplay: true,
       infinite: true,
@@ -44,7 +44,27 @@ const responsive = [
     },
   },
   {
+    breakpoint: 2400,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 6,
+      slidesToScroll: 2,
+    },
+  },
+  {
     breakpoint: 2500,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 6,
+      slidesToScroll: 2,
+    },
+  },
+  {
+    breakpoint: 2800,
     settings: {
       autoplay: true,
       infinite: true,
