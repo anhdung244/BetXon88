@@ -1,0 +1,23 @@
+@use "@styles/base" as *;
+
+.match-slider {
+  .ant-carousel {
+    .slick-slider {
+      .slick-list {
+        .slick-track {
+          .slick-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+    .slick-dots {
+      bottom: -20px;
+      button {
+        background-color: white;
+      }
+    }
+  }
+}
