@@ -4,7 +4,17 @@ import "./style.scss";
 
 const responsive = [
   {
-    breakpoint: 1200,
+    breakpoint: 1100,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    },
+  },
+  {
+    breakpoint: 1300,
     settings: {
       autoplay: true,
       infinite: true,
@@ -14,7 +24,17 @@ const responsive = [
     },
   },
   {
-    breakpoint: 1400,
+    breakpoint: 1500,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+    },
+  },
+  {
+    breakpoint: 1800,
     settings: {
       autoplay: true,
       infinite: true,
@@ -44,7 +64,37 @@ const responsive = [
     },
   },
   {
+    breakpoint: 2300,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 5,
+      slidesToScroll: 2,
+    },
+  },
+  {
+    breakpoint: 2400,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 6,
+      slidesToScroll: 2,
+    },
+  },
+  {
     breakpoint: 2500,
+    settings: {
+      autoplay: true,
+      infinite: true,
+      draggable: true,
+      slidesToShow: 6,
+      slidesToScroll: 2,
+    },
+  },
+  {
+    breakpoint: 2800,
     settings: {
       autoplay: true,
       infinite: true,
