@@ -4,6 +4,7 @@ import Sider from "antd/es/layout/Sider";
 import BetSlip from "./components/BetSlip";
 import Header from "./components/Header";
 import MainTab from "./components/MainTab";
+import Sidebar from "./components/SideBar";
 import Home from "./home";
 
 function RootLayout() {
@@ -12,7 +13,9 @@ function RootLayout() {
             <Header />
             <MainTab />
             <Layout>
-                <Sider>Sider</Sider>
+                <Sider width={300}>
+                    <Sidebar />
+                </Sider>
                 <Home></Home>
                 <Sider width={400}>
                     <BetSlip />
