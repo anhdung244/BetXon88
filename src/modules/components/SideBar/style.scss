@@ -1,0 +1,78 @@
+@use "@styles/base" as *;
+
+.menu-sidebar {
+    color: $text-color-gray;
+    &.ant-menu {
+        background-color: $slide-box;
+        .ant-menu-submenu-selected > .ant-menu-submenu-title {
+            color: #ff6600;
+        }
+        .ant-menu-item-selected {
+            margin-left: -4px;
+            background-color: #283352;
+            color: #ff6600;
+            font-weight: 600;
+        }
+        .ant-menu-item {
+            margin-left: 2px;
+            .ant-menu-title-content {
+                font-size: 12px;
+                margin-top: 16px;
+                &:hover {
+                    color: white;
+                }
+                .vs-comp {
+                    .time {
+                        font-size: 10px;
+                    }
+                    .vs {
+                        line-height: 1px;
+                    }
+                    line-height: 30px;
+                    text-align: center;
+                    margin: 16px 16px;
+                }
+            }
+        }
+        .ant-menu-submenu {
+            .ant-menu-submenu-title {
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.tab-sidebar-section {
+    background-color: #141c33;
+}
+
+.event-section {
+    background-color: #141c33;
+    margin-bottom: 20px;
+}
+
+.favorite-section {
+    background-color: #141c33;
+    margin-bottom: 20px;
+}
+
+.match-comp {
+    display: flex;
+}
+
+.flag-comp {
+    margin-top: 13px;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.popular-events-title {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    background-color: #202a39;
+    padding: 8px;
+}

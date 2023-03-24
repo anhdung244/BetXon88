@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 interface IButtonProps {
     type: string;
     children: ReactNode;
-    className: string | null;
+    className?: string | null;
 }
 
 function AuthButton({type, children, className, ...props}: IButtonProps) {

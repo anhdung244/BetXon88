@@ -3,82 +3,81 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
+    html {
+        scroll-behavior: smooth;
+    }
 
-  html,
-  body,
-  #root {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 0;
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
+    html,
+    body,
+    #root {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        padding: 0;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
 
-  body,
-  body pre {
-    font-family: "넥슨Lv2고딕 OTF", Helvetica, "Apple SD Gothic Neo",
-      "Sans-serif";
-    font-smooth: always;
-  }
+    body,
+    body pre {
+        font-family: "넥슨Lv2고딕 OTF", Helvetica, "Apple SD Gothic Neo",
+            "Sans-serif";
+        font-smooth: always;
+    }
 
-  .ellipsis {
-    overflow: hidden;
-    height: 50px;
-  }
+    .ellipsis {
+        overflow: hidden;
+        height: 50px;
+    }
 
-  .ellipsis:before {
-    content: "";
-    float: left;
-    width: 5px;
-    height: 50px;
-  }
+    .ellipsis:before {
+        content: "";
+        float: left;
+        width: 5px;
+        height: 50px;
+    }
 
-  .ellipsis > *:first-child {
-    float: right;
-    width: 100%;
-    margin-left: -5px;
-  }
+    .ellipsis > *:first-child {
+        float: right;
+        width: 100%;
+        margin-left: -5px;
+    }
 
-  .ellipsis:after {
-    content: "\02026";
-    box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    float: right;
-    position: relative;
-    top: -25px;
-    left: 100%;
-    width: 3em;
-    margin-left: -3;
-  }
+    .ellipsis:after {
+        content: "\02026";
+        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        float: right;
+        position: relative;
+        top: -25px;
+        left: 100%;
+        width: 3em;
+        margin-left: -3;
+    }
 }
 
 /* for upload dile v3 */
 input[class="upload-file-v3" i]::-webkit-file-upload-button {
-  display: none !important;
+    display: none !important;
 }
 
 input[class="upload-file-v3"] {
-  color: transparent;
+    color: transparent;
 }
 /* for upload dile v3 */
 
 @layer components {
-  .loadingCircle {
-    @apply w-8 h-8 border-4 rounded-full border-gray-500 border-t-gray-100 animate-spin;
-  }
+    .loadingCircle {
+        @apply w-8 h-8 border-4 rounded-full border-gray-500 border-t-gray-100 animate-spin;
+    }
 
-  .without-ring {
-    @apply focus:outline-none;
-  }
+    .without-ring {
+        @apply focus:outline-none;
+    }
 
-  .disabled-btn {
-    @apply bg-gray-400 hover:bg-gray-400 text-white;
-  }
+    .disabled-btn {
+        @apply bg-gray-400 hover:bg-gray-400 text-white;
+    }
 }
