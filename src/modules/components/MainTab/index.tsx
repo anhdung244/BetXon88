@@ -28,43 +28,43 @@ const MainTab: React.FC = () => {
         direction="horizontal"
         items={[
           {
-            key: "part-1",
-            href: "#part-1",
+            key: "home",
+            href: "#home",
             title: <TabView icon={<HomeIcon />} label="Home"></TabView>,
-          },
-          {
-            key: "part-3",
-            href: "#part-6",
-            title: <TabView icon={<Basketball />} label="Today"></TabView>,
           },
           {
             key: "part-2",
             href: "#part-2",
-            title: <TabView icon={<Football />} label="Football"></TabView>,
+            title: <TabView icon={<Basketball />} label="Today"></TabView>,
           },
           {
             key: "part-3",
             href: "#part-3",
+            title: <TabView icon={<Football />} label="Football"></TabView>,
+          },
+          {
+            key: "part-4",
+            href: "#part-4",
             title: <TabView icon={<Basketball />} label="Basketball"></TabView>,
           },
           {
-            key: "part-3",
-            href: "#part-4",
+            key: "part-5",
+            href: "#part-5",
             title: <TabView icon={<Tennis />} label="Tennis"></TabView>,
           },
           {
-            key: "part-3",
-            href: "#part-5",
+            key: "part-6",
+            href: "#part-6",
             title: <TabView icon={<Basketball />} label="Volleyball"></TabView>,
           },
           {
-            key: "part-3",
-            href: "#part-5",
+            key: "part-7",
+            href: "#part-7",
             title: <TabView icon={<Search />} label="Search"></TabView>,
           },
           {
-            key: "part-3",
-            href: "#part-5",
+            key: "part-8",
+            href: "#part-8",
             title: <TabView icon={<Favorite />} label="Favorite"></TabView>,
           },
         ]}
