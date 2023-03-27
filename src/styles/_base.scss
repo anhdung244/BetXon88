@@ -28,12 +28,17 @@ $main-tab: #161f2c;
 $custom-button: linear-gradient(114.26deg, #ff6600 13.41%, #ff6600 87.24%);
 $orange: #ff6600;
 $pink: #f3486a;
+$title: #88b6ff;
 $text-color: #88b6ff;
 $text-color-blue: #4c6998;
 $text-color-gray: #8a92ab;
 $slide-box: #141c33;
 $background: #060c1f;
+$background-content: #141c33;
 $point-box: #283352;
+$active-button: #09ff8d;
+$active-button-bg: rgba(0, 191, 158, 0.3);
+$active-button-border: rgba(18, 94, 82, 0.729);
 
 $black: #030303;
 
@@ -105,5 +110,27 @@ $admin-sidebar-item-hover-bg: #d1d1d1;
     height: 7px;
     width: 20px;
     transform: skewY(150deg);
+  }
+}
+
+@mixin scroll-bar {
+  /* width */
+  &::-webkit-scrollbar {
+    height: 2px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $text-color-gray;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $orange;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
