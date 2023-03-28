@@ -1,12 +1,13 @@
 import {Layout} from "antd";
 import MatchSlider from "./components/MatchSlider";
-import TrendingCard from "./components/TrendingCard";
+import NextMatch from "./components/NextMatch";
+import "./style.scss";
 
 const Home = () => {
   return (
-    <Layout.Content>
+    <Layout.Content className="">
       <MatchSlider></MatchSlider>
-      <TrendingCard></TrendingCard>
+      <NextMatch></NextMatch>
     </Layout.Content>
   );
 };
