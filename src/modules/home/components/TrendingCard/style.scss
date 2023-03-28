@@ -1,0 +1,15 @@
+@use "@styles/base" as *;
+
+.card-container {
+  .ant-card {
+    background-color: #141c33;
+    .ant-card-head {
+      color: #88b6ff;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 20px 0 20px;
+      padding: 0 10px 0 10px;
+      border-bottom-color: rgb(76, 84, 106);
+    }
+  }
+}
