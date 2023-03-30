@@ -5,10 +5,10 @@ import "./style.scss";
 
 const Home = () => {
   return (
-    <Layout.Content className="">
+    <>
       <MatchSlider></MatchSlider>
       <NextMatch></NextMatch>
-    </Layout.Content>
+    </>
   );
 };
 
