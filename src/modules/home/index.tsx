@@ -1,4 +1,3 @@
-import { Layout } from "antd";
 import MatchSlider from "./components/MatchSlider";
 import NextMatch from "./components/NextMatch";
 import "./style.scss";

@@ -23,7 +23,8 @@
       "@/common/*": ["src/common/*"],
       "@/configs/*": ["src/configs/*"],
       "@/styles/*": ["src/styles/*"],
-      "@/icons/*": ["src/icons/*"]
+      "@/icons/*": ["src/icons/*"],
+      "@/routes/*": ["src/routes/*"]
     }
   },
   "include": ["src/", "**/*.ts", "**/*.tsx"],
