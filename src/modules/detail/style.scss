@@ -1,0 +1,6 @@
+@use "@styles/base" as *;
+
+.ant-layout-content {
+  background: $background;
+  gap: 20px;
+}

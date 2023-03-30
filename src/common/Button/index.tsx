@@ -2,15 +2,9 @@ import { ReactNode } from "react";
 import styles from "./style.module.scss";
 
 interface IButtonProps {
-<<<<<<< HEAD
-    type: string;
-    children: ReactNode;
-    className?: string | null;
-=======
   type: string;
   children: ReactNode;
   className?: string | null;
->>>>>>> d234a32 (add title and match tab)
 }
 
 function AuthButton({ type, children, className, ...props }: IButtonProps) {
