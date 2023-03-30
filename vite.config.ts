@@ -13,6 +13,7 @@ export default defineConfig({
       "@/styles": path.resolve(__dirname, "./src/styles"),
       "@styles": path.resolve(__dirname, "./src/styles"),
       "@/icons": path.resolve(__dirname, "./src/icons"),
+      "@/routes": path.resolve(__dirname, "./src/routes"),
     },
   },
   plugins: [react()],
