@@ -1,0 +1,25 @@
+@use "@styles/base" as *;
+
+.bet-option {
+  margin-top: 20px;
+  padding: 10px 0px;
+  background-color: $background-content;
+  .ant-tabs {
+    color: $text-color;
+    .ant-tabs-nav {
+      .ant-tabs-nav-wrap {
+        padding: 10px;
+        .ant-tabs-nav-list {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1400px) {
+    overflow-x: scroll;
+    @include scroll-bar;
+  }
+}

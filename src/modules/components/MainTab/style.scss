@@ -17,12 +17,14 @@
 
 .main-tab {
   background: $main-tab;
+
   justify-content: center;
   align-items: center;
   padding: 15px 40px;
   font-size: $font-size;
   .ant-anchor {
     width: 100%;
+    position: relative;
     justify-content: flex-start;
     padding: 0 4rem;
     gap: 1.5rem;

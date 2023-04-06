@@ -1,0 +1,38 @@
+@use "@styles/base" as *;
+
+.box-result {
+  width: 50%;
+  height: 80px;
+
+  .ant-btn {
+    @include flex-center-content;
+    height: 100%;
+    width: 100%;
+    padding: 8px 5px 10px;
+    color: white;
+    background-color: $point-box !important;
+    gap: 4px;
+    border: none;
+    border-radius: 10px;
+    div {
+      @include flex-row-center;
+      font-size: 12px;
+      color: white;
+      font-weight: 300;
+      p {
+        font-size: 14px;
+      }
+      span {
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    }
+    p {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    &:hover {
+      background-color: $header-background !important;
+    }
+  }
+}
