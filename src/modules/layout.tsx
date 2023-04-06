@@ -9,7 +9,7 @@ import Sidebar from "./components/SideBar";
 
 function RootLayout() {
   return (
-    <Layout className="w-full h-full">
+    <Layout className="min-h-screen">
       <Header />
       <MainTab />
       <Layout>

@@ -1,0 +1,25 @@
+@use "@styles/base" as *;
+
+.bet-details {
+  .ant-collapse {
+    .ant-collapse-header {
+      color: white;
+    }
+    .ant-collapse-content {
+      .ant-collapse-content-box {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background: $background-content;
+      }
+    }
+  }
+}
+
+.box-batch {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}

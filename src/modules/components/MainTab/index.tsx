@@ -25,6 +25,7 @@ const MainTab: React.FC = () => {
   return (
     <div className="main-tab">
       <Anchor
+        affix={false}
         direction="horizontal"
         items={[
           {
