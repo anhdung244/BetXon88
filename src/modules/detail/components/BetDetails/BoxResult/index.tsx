@@ -4,12 +4,13 @@ import "./style.scss";
 type TBox = {
   team?: string;
   point: string;
-  result: string;
+  result: number;
+  handleSelectOption: () => void;
 };
-const BoxResult = ({ team, point, result }: TBox) => {
+const BoxResult = ({ team, point, result, handleSelectOption }: TBox) => {
   return (
     <div className="box-result">
-      <Button>
+      <Button onClick={handleSelectOption}>
         <div>
           <p>{team}</p>
           <span>{point}</span>

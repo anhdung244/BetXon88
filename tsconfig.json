@@ -19,12 +19,14 @@
     "baseUrl": ".",
     "paths": {
       "@/modules/*": ["src/modules/*"],
+      "@/app/*": ["src/app/*"],
       "@/hooks/*": ["src/hooks/*"],
       "@/common/*": ["src/common/*"],
       "@/configs/*": ["src/configs/*"],
       "@/styles/*": ["src/styles/*"],
       "@/icons/*": ["src/icons/*"],
-      "@/routes/*": ["src/routes/*"]
+      "@/routes/*": ["src/routes/*"],
+      "@/features/*": ["src/features/*"]
     }
   },
   "include": ["src/", "**/*.ts", "**/*.tsx"],
