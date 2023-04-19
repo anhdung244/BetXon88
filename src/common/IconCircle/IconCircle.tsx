@@ -46,6 +46,7 @@ const IconCircle = ({children, width, height, color}: IIconCircle) => {
                         : color.default.fill,
                 transitionTimingFunction: "ease-in-out",
                 transitionDuration: "300ms",
+                cursor: isHover ? "pointer" : "",
             }}
             className="icon-svg"
             onMouseEnter={handleMouseEnter}
