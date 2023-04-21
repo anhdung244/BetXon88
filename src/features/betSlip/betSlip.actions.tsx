@@ -1,21 +1,13 @@
-import { createAction } from "@reduxjs/toolkit";
-import { v4 as uuidv4 } from "uuid";
-import { TBetSlipOption, TBoxSelect } from "./betSlip.type";
+import {createAction} from "@reduxjs/toolkit";
+import {TBetSlipOption, TBoxSelect} from "./betSlip.type";
 
 export const increment = createAction<number>("increment");
 
 //====== BET OPTION =====
 export const deleteBetOption = createAction<TBetSlipOption>(
-  "detail/betSlip/delete"
+    "detail/betSlip/delete"
 );
 export const updateBetOption = createAction<TBetSlipOption>(
-  "detail/betSlip/update"
+    "detail/betSlip/update"
 );
-export const createBetOption = createAction(
-  "detail/betSlip/add",
-  (option: TBoxSelect) => {
-    return {
-      payload: { ...option, id: uuidv4() },
-    };
-  }
-);
+export const createBetOption = createAction<TBoxSelect>("detail/betSlip/add");

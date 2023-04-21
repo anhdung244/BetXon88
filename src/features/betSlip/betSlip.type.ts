@@ -7,27 +7,28 @@
 // };
 
 export type TBoxSelect = {
-  teamSelected: string;
-  team1: string;
-  team2: string;
-  point: string;
-  result: number;
+    teamSelected: string;
+    team1: string;
+    team2: string;
+    point: string;
+    result: number;
+    id: string;
 };
 export const initialBetOptionState = {
-  teamSelected: "",
-  team1: "",
-  team2: "",
-  point: "",
-  result: 2.0,
-  money: 1,
+    teamSelected: "",
+    team1: "",
+    team2: "",
+    point: "",
+    result: 2.0,
+    money: 1,
 };
 
 export type BetSelectOption = {
-  id: string;
+    id: string;
 } & TBoxSelect;
 export type TinitialBetSlipData = {
-  data: BetSelectOption[];
-  totalBetMoney: number;
+    data: BetSelectOption[];
+    totalBetMoney: number;
 };
 
 export type TBetSlipOption = typeof initialBetOptionState;
